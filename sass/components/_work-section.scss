@@ -1,0 +1,43 @@
+@import "../utils/variables";
+
+.work-section {
+  padding-bottom: 94px;
+}
+
+.title {
+  font-style: 500;
+  font-weight: 700px;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.images {
+  padding-bottom: 94px;
+}
+
+.image-list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.image-list__img-card {
+  position: relative;
+}
+
+.image-list__img-description {
+  position: absolute;
+  bottom: 0;
+  color: #fff;
+  padding: 27px 0px 27px 0px;
+  width: 100%;
+  text-align: center;
+  background-color: rgba(47, 48, 58, 0.8);
+  margin: 0;
+  text-transform: uppercase;
+}

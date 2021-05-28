@@ -1,0 +1,69 @@
+@import "../utils/variables";
+
+.first-section {
+  padding-bottom: 200px;
+  padding-top: 200px;
+  text-align: center;
+
+  &--background {
+    max-width: 1600px;
+    min-width: 1200px;
+    height: 600px;
+    color: #fff;
+    align-items: center;
+    background: #2f303a;
+    background-color: bisque;
+    background-image: linear-gradient(
+        to top,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../images/shapka.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+  }
+}
+
+.first-section__main-title {
+  color: #fff;
+  font-family: $font;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin: 0 auto 30px auto;
+  width: 696px;
+}
+
+.first-section__button {
+  background: $color-link;
+  font-family: $font;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+  width: 200px;
+  height: 50px;
+  border: none;
+  letter-spacing: 0.06em;
+  color: #fff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover {
+    border-radius: 100px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15);
+    color: #fff;
+  }
+
+  &:focus {
+    border-radius: 100px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15);
+    color: #fff;
+  }
+}
